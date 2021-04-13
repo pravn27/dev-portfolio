@@ -32,8 +32,16 @@ const BasicInfo = () => {
         />
         <h1 className="text-center text-white">Praveen S</h1>
         <p class="lead text-center text-white">
-          Senior Software Engineer | ReactJS Developer | UI/UX Web/Mobile app
-          developer
+          <strong>
+            Senior Software Engineer | ReactJS Developer | UI/UX Web/Mobile app
+            developer
+          </strong>
+        </p>
+        <p class="lead text-center text-white">
+          A result-orientated professional with over 5.2 year's experience in
+          Software Development (ReactJS developer) in web/mobile application,
+          enhancement and services including UI frontend cutting edge
+          technologies.
         </p>
       </DevInfoContainer>
     </MainContainer>

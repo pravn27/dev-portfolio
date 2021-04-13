@@ -1,10 +1,12 @@
 import BasicInfo from "./sections/BasicInfo/BasicInfo";
+import Education from "./sections/Education/Education";
 
 const App = () => {
   return (
-    <div>
+    <>
       <BasicInfo />
-    </div>
+      <Education />
+    </>
   );
 };
 
