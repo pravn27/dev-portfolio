@@ -1,12 +1,23 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-  background: #00bcd4;
+  background: ${({ theme: { primaryColor } }) => primaryColor};
   padding: 15px;
 `;
 
 export const LinkContainer = styled.div`
   display: flex;
+
+  && .BtnContainer {
+    button {
+      background: #008fa1;
+      color: white;
+    }
+    button: hover, button: active {
+      background: #00a5bb;
+      color: white;
+    }
+  }
 
   @media (max-width: 768px) {
     flex-direction: column-reverse;

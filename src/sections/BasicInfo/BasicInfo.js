@@ -5,7 +5,7 @@ const BasicInfo = () => {
   return (
     <MainContainer>
       <LinkContainer className="mb-3">
-        <div>
+        <div className="BtnContainer">
           <button className="btn btn-light mr-2">
             <i class="fab fa-github fa-lg"></i>
           </button>
@@ -13,7 +13,7 @@ const BasicInfo = () => {
             <i class="fab fa-linkedin fa-lg"></i>
           </button>
         </div>
-        <div>
+        <div className="BtnContainer">
           <button className="btn btn-light mr-2">
             <i class="fas fa-paper-plane"></i> Hire Me
           </button>

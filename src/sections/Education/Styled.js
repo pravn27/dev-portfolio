@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
-export const Title = styled.h6`
-  color: #00bcd4;
-  margin: 0;
+export const MainContainer = styled.div`
+  .secondary-color {
+    color: ${({ theme: { secondaryColor } }) => secondaryColor};
+  }
+  .subtitle-text {
+    font-size: ${({ theme: { fontSizeMd } }) => fontSizeMd};
+  }
 `;
 
-export const SubTitleText = styled.p`
-  font-size: 14px;
+export const Title = styled.h6`
+  color: ${({ theme: { primaryColor } }) => primaryColor};
+  margin: 0;
 `;
