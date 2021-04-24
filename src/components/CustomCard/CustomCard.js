@@ -5,7 +5,7 @@ const CustomCard = ({ children, title }) => {
   return (
     <MainContainer className="card">
       <div className="card-body">
-        <h4 class="card-title text-center mb-4">{title}</h4>
+        <h4 className="card-title text-center mb-4">{title}</h4>
         {children}
       </div>
     </MainContainer>

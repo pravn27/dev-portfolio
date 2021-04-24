@@ -23,12 +23,12 @@ const Education = () => {
             <li>
               Rainfall prediction model using Artificial Neural Network
               Classification during 2st sem, March 2015.{" "}
-              <i class="far fa-clock"></i> 3 months
+              <i className="far fa-clock"></i> 3 months
             </li>
             <li>
               Analysis of Huffman and Arithmetic coding algorithm for data
               compression during 1st sem, August 2014.{" "}
-              <i class="far fa-clock"></i> 2 months
+              <i className="far fa-clock"></i> 2 months
             </li>
           </ul>
           <Title>Research Publications</Title>
