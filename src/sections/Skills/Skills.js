@@ -44,6 +44,7 @@ const professionalSkills = {
     "JQuery",
     "React Native",
   ],
+  testing: ["Jest", "React Testing Library"],
   versionControl: ["Github", "Bitbucket", "SVN"],
   platforms: ["Linux/Ubuntu", "Mac OS", "Windows 10"],
 };
@@ -52,6 +53,7 @@ const Skills = () => {
   const {
     topSkills,
     otherSkills,
+    testing,
     versionControl,
     platforms,
   } = professionalSkills;
@@ -72,6 +74,16 @@ const Skills = () => {
       <Title>Others - Web / Mobile Technology & Scripting</Title>
       <OtherSkillsContainer>
         {otherSkills.map((skill) => (
+          <SkillCardContainer key={skill} className="card">
+            <div className="card-body">
+              <h6 className="card-title mb-0">{skill}</h6>
+            </div>
+          </SkillCardContainer>
+        ))}
+      </OtherSkillsContainer>
+      <Title>Javascript Testing</Title>
+      <OtherSkillsContainer>
+        {testing.map((skill) => (
           <SkillCardContainer key={skill} className="card">
             <div className="card-body">
               <h6 className="card-title mb-0">{skill}</h6>
