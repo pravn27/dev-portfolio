@@ -6,15 +6,26 @@ const BasicInfo = () => {
     <MainContainer>
       <LinkContainer className="mb-3">
         <div className="BtnContainer">
-          <button className="btn btn-light mr-2">
+          <button
+            className="btn btn-light mr-2"
+            onClick={() => window.open("https://github.com/pravn27")}
+          >
             <i className="fab fa-github fa-lg"></i>
           </button>
-          <button className="btn btn-light mr-2">
+          <button
+            className="btn btn-light mr-2"
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/praveen-s-157b365a/")
+            }
+          >
             <i className="fab fa-linkedin fa-lg"></i>
           </button>
         </div>
         <div className="BtnContainer">
-          <button className="btn btn-light mr-2">
+          <button
+            className="btn btn-light mr-2"
+            onClick={() => (window.location = "mailto:no-reply@example.com")}
+          >
             <i className="fas fa-paper-plane"></i> Hire Me
           </button>
           <button className="btn btn-light">
