@@ -4,6 +4,24 @@ export const ExpTimeLineContainer = styled.div`
   && {
     .vertical-timeline::before {
       background: ${({ theme: { primaryColor } }) => primaryColor};
+      left: 9px;
+      width: 2px;
+      height: 95%;
+      top: 30px;
+    }
+
+    .vertical-timeline-element-icon::before {
+      content: "";
+      position: absolute;
+      border: 4px solid white;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: ${({ theme: { primaryColor } }) => primaryColor};
+    }
+
+    .vertical-timeline-element-date {
+      display: none;
     }
   }
   .secondary-color {
@@ -25,4 +43,11 @@ export const Title = styled.h5`
   }
 `;
 
-export const SubTitle = styled.h6``;
+export const SubTitle = styled.h6`
+  span {
+    color: ${({ theme: { secondaryColor } }) => secondaryColor};
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+`;
