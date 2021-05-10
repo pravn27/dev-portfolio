@@ -7,9 +7,10 @@ const Education = () => {
     <CustomCard title="Education/Academic projects/Achievements">
       <MainContainer className="row">
         <div className="col-md-6 mb-3">
-          <Title>MTech CSE</Title>
+          <Title>MTech in Computer Science</Title>
           <p className="m-0 secondary-color">
-            Vellore Institute of Technology, VIT University, Vellore, TN
+            <i className="fas fa-user-graduate"></i> Vellore Institute of
+            Technology, VIT University, Vellore, TN
           </p>
           <p className="secondary-color subtitle-text">
             2014 - 2016 | 8.8 CGPA
@@ -67,10 +68,10 @@ const Education = () => {
             </li>
           </ul>
           <hr />
-          <Title>BE CSE</Title>
+          <Title>BE in Computer Science</Title>
           <p className="m-0 secondary-color">
-            Kalpataru Institute of Technology, Visvesvaraya Technological
-            University VTU, KA
+            <i className="fas fa-user-graduate"></i> Kalpataru Institute of
+            Technology, Visvesvaraya Technological University VTU, KA
           </p>
           <p className="secondary-color subtitle-text">2008 - 2012 | 68%</p>
         </div>

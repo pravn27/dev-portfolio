@@ -5,7 +5,7 @@ import BasicInfo from "./sections/BasicInfo/BasicInfo";
 import Experience from "./sections/Experience/Experience";
 import Skills from "./sections/Skills/Skills";
 import Education from "./sections/Education/Education";
-import Books from "./sections/Books/Books";
+import Projects from "./sections/Projects/Projects";
 import Contact from "./sections/Contact/Contact";
 
 const App = () => {
@@ -14,8 +14,8 @@ const App = () => {
       <BasicInfo />
       <Experience />
       <Skills />
+      <Projects />
       <Education />
-      <Books />
       <Contact />
     </ThemeProvider>
   );

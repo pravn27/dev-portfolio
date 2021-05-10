@@ -26,10 +26,10 @@ const BasicInfo = () => {
             className="btn btn-light mr-2"
             onClick={() => (window.location = "mailto:no-reply@example.com")}
           >
-            <i className="fas fa-paper-plane"></i> Hire Me
+            <i className="fas fa-paper-plane"></i> HIRE ME
           </button>
           <button className="btn btn-light">
-            <i className="fas fa-download"></i> Download My Resume
+            <i className="fas fa-download"></i> DOWNLOAD CV
           </button>
         </div>
       </LinkContainer>

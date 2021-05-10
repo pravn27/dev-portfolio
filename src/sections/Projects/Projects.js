@@ -1,12 +1,12 @@
 import React from "react";
 import CustomCard from "../../components/CustomCard/CustomCard";
 
-const Books = () => {
+const Projects = () => {
   return (
-    <CustomCard title="Favorite Books">
-      <h6>Card body about Books</h6>
+    <CustomCard title="Projects">
+      <h6>Card body about Projects</h6>
     </CustomCard>
   );
 };
 
-export default Books;
+export default Projects;
