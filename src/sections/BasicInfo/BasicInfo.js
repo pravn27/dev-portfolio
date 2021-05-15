@@ -24,7 +24,7 @@ const BasicInfo = () => {
         <div className="BtnContainer">
           <button
             className="btn btn-light mr-2"
-            onClick={() => (window.location = "mailto:no-reply@example.com")}
+            onClick={() => (window.location = "mailto:praveen.sri27@gmail.com")}
           >
             <i className="fas fa-paper-plane"></i> HIRE ME
           </button>
