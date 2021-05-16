@@ -26,7 +26,7 @@ const Experience = () => {
     },
   };
   return (
-    <CustomCard title="Experience">
+    <CustomCard title="Experience" scrollId="Experience">
       <ExpTimeLineContainer>
         <VerticalTimeline layout="1-column-left">
           <VerticalTimelineElement {...timeLineElementProps}>

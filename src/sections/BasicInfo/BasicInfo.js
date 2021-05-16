@@ -8,6 +8,12 @@ const BasicInfo = () => {
         <div className="BtnContainer">
           <button
             className="btn btn-light mr-2"
+            onClick={() => (window.location = "mailto:praveen.sri27@gmail.com")}
+          >
+            <i className="fas fa-envelope fa-lg"></i>
+          </button>
+          <button
+            className="btn btn-light mr-2"
             onClick={() => window.open("https://github.com/pravn27")}
           >
             <i className="fab fa-github fa-lg"></i>

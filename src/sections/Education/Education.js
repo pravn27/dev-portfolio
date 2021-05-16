@@ -19,7 +19,10 @@ const educationInfo = {
 const Education = () => {
   const { doubleDegree, singleDegree } = educationInfo;
   return (
-    <CustomCard title="Education/Academic projects/Achievements">
+    <CustomCard
+      title="Education/Academic projects/Achievements"
+      scrollId="Education"
+    >
       <MainContainer className="row">
         <div className="col-md-6 mb-3">
           <Title>{doubleDegree.title}</Title>

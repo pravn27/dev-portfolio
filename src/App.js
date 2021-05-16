@@ -7,11 +7,13 @@ import Skills from "./sections/Skills/Skills";
 import Education from "./sections/Education/Education";
 import Projects from "./sections/Projects/Projects";
 import Contact from "./sections/Contact/Contact";
+import HeaderMenu from "./components/HeaderMenu/HeaderMenu";
 
 const App = () => {
   return (
     <ThemeProvider theme={customTheme}>
       <BasicInfo />
+      <HeaderMenu />
       <Experience />
       <Skills />
       <Projects />

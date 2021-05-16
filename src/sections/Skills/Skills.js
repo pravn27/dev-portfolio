@@ -50,15 +50,10 @@ const professionalSkills = {
 };
 
 const Skills = () => {
-  const {
-    topSkills,
-    otherSkills,
-    testing,
-    versionControl,
-    platforms,
-  } = professionalSkills;
+  const { topSkills, otherSkills, testing, versionControl, platforms } =
+    professionalSkills;
   return (
-    <CustomCard title="Professional Skills">
+    <CustomCard title="Professional Skills" scrollId="Skills">
       <Title>Top - Web / Mobile Technology & Scripting</Title>
       <TopSkillsContainer>
         {topSkills.map(({ title, subTitle, percentage }) => (

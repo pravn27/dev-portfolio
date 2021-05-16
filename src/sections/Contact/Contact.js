@@ -48,7 +48,7 @@ const Contact = () => {
     socialConnect,
   } = contactInfo;
   return (
-    <CustomCard title={title}>
+    <CustomCard title={title} scrollId="Contact">
       <div className="row">
         <LeftSideContainer className="col-md-4">
           <img
