@@ -2,19 +2,31 @@ import React from "react";
 import { MainContainer, Title } from "./Styled";
 import CustomCard from "../../components/CustomCard/CustomCard";
 
+const educationInfo = {
+  doubleDegree: {
+    title: "MTech in Computer Science",
+    college: "Vellore Institute of Technology, VIT University, Vellore, TN",
+    result: "2014 - 2016 | 8.8 CGPA",
+  },
+  singleDegree: {
+    title: "BE in Computer Science",
+    college:
+      "Kalpataru Institute of Technology, Visvesvaraya Technological University VTU, KA",
+    result: "2008 - 2012 | 68%",
+  },
+};
+
 const Education = () => {
+  const { doubleDegree, singleDegree } = educationInfo;
   return (
     <CustomCard title="Education/Academic projects/Achievements">
       <MainContainer className="row">
         <div className="col-md-6 mb-3">
-          <Title>MTech in Computer Science</Title>
+          <Title>{doubleDegree.title}</Title>
           <p className="m-0 secondary-color">
-            <i className="fas fa-user-graduate"></i> Vellore Institute of
-            Technology, VIT University, Vellore, TN
+            <i className="fas fa-user-graduate"></i> {doubleDegree.college}
           </p>
-          <p className="secondary-color subtitle-text">
-            2014 - 2016 | 8.8 CGPA
-          </p>
+          <p className="secondary-color subtitle-text">{doubleDegree.result}</p>
           <Title>Projects</Title>
           <p className="secondary-color subtitle-text">
             As a part of PG program have undertaken the following projects
@@ -68,12 +80,11 @@ const Education = () => {
             </li>
           </ul>
           <hr />
-          <Title>BE in Computer Science</Title>
+          <Title>{singleDegree.title}</Title>
           <p className="m-0 secondary-color">
-            <i className="fas fa-user-graduate"></i> Kalpataru Institute of
-            Technology, Visvesvaraya Technological University VTU, KA
+            <i className="fas fa-user-graduate"></i> {singleDegree.college}
           </p>
-          <p className="secondary-color subtitle-text">2008 - 2012 | 68%</p>
+          <p className="secondary-color subtitle-text">{singleDegree.result}</p>
         </div>
       </MainContainer>
     </CustomCard>

@@ -30,6 +30,19 @@ export const ExpTimeLineContainer = styled.div`
   .subtitle-text {
     font-size: ${({ theme: { fontSizeMd } }) => fontSizeMd};
   }
+  .mainTitleContainer {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    .location {
+      color: ${({ theme: { secondaryColor } }) => secondaryColor};
+      font-size: ${({ theme: { fontSizeMd } }) => fontSizeMd};
+    }
+  }
 `;
 
 export const Title = styled.h5`
@@ -49,5 +62,13 @@ export const SubTitle = styled.h6`
     margin-left: 5px;
     font-weight: 400;
     font-size: 14px;
+  }
+  a {
+    color: #008fa1;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  a: hover {
+    color: ${({ theme: { primaryColor } }) => primaryColor};
   }
 `;

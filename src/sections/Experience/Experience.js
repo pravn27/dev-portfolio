@@ -30,20 +30,33 @@ const Experience = () => {
       <ExpTimeLineContainer>
         <VerticalTimeline layout="1-column-left">
           <VerticalTimelineElement {...timeLineElementProps}>
-            <Title>
-              Valtech India Systems Ltd
-              <span>(Software Engineer - UI ReactJS developer)</span>
-            </Title>
+            <div className="mainTitleContainer">
+              <Title>
+                Valtech India Systems Ltd
+                <span>(Software Engineer - UI ReactJS developer)</span>
+              </Title>
+              <span className="location">
+                <i className="fas fa-map-marker-alt"></i> Bangalore, India
+              </span>
+            </div>
             <span className="secondary-color subtitle-text">
               Aug 2017 - Aug 2019 <i className="far fa-clock"></i> 2 Years
             </span>
             <SubTitle className="mt-2">
               Project:
-              <span>Voot Web Application & PWA for Mobile</span>
+              <a href="https://voot.com/" target="_blank" rel="noreferrer">
+                Voot Web Application & PWA for Mobile
+              </a>
             </SubTitle>
             <SubTitle className="mt-2">
               Client:
-              <span>Viacom18 Media</span>
+              <a
+                href="https://www.viacom18.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Viacom18 Media
+              </a>
             </SubTitle>
             <SubTitle>
               Overview:
@@ -63,6 +76,10 @@ const Experience = () => {
                 effective way with feedbacks & suggestions in UI/UX designs.
               </li>
               <li>
+                Following best industry practices in UI layout design, unit test
+                code coverage of minimum 60%.
+              </li>
+              <li>
                 Troubleshooting various issues with the testing team for fixing
                 bugs and for supporting automation.
               </li>
@@ -70,9 +87,9 @@ const Experience = () => {
             <SubTitle>
               Tools & Technologies:
               <span>
-                JavaScript, ReactJS, Redux for data management, Mixpanel for
-                Analytics, AppBoy for Push Notification, LoginRadius for Social
-                login.
+                JavaScript, ReactJS, Redux for data management, Jest, Mixpanel
+                for Analytics, AppBoy for Push Notification, LoginRadius for
+                Social login.
               </span>
             </SubTitle>
             <SubTitle>
@@ -80,10 +97,15 @@ const Experience = () => {
             </SubTitle>
           </VerticalTimelineElement>
           <VerticalTimelineElement {...timeLineElementProps}>
-            <Title>
-              Infobell IT Solutions, TEKSystem
-              <span>(Software Developer - UI ReactJS developer)</span>
-            </Title>
+            <div className="mainTitleContainer">
+              <Title>
+                Infobell IT Solutions, TEKSystem
+                <span>(Software Developer - UI ReactJS developer)</span>
+              </Title>
+              <span className="location">
+                <i className="fas fa-map-marker-alt"></i> Bangalore, India
+              </span>
+            </div>
             <span className="secondary-color subtitle-text">
               Dec 2016 - Aug 2017 <i className="far fa-clock"></i> 9 Months
             </span>
@@ -93,7 +115,13 @@ const Experience = () => {
             </SubTitle>
             <SubTitle className="mt-2">
               Client:
-              <span>(HPE) DXC Technology</span>
+              <a
+                href="https://www.dxc.technology/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                DXC Technology (HPE)
+              </a>
             </SubTitle>
             <SubTitle>
               Overview:
@@ -124,10 +152,15 @@ const Experience = () => {
             </SubTitle>
           </VerticalTimelineElement>
           <VerticalTimelineElement {...timeLineElementProps}>
-            <Title>
-              CodingMart Technologies
-              <span>(Product Engineer - UI developer)</span>
-            </Title>
+            <div className="mainTitleContainer">
+              <Title>
+                CodingMart Technologies
+                <span>(Product Engineer - UI developer)</span>
+              </Title>
+              <span className="location">
+                <i className="fas fa-map-marker-alt"></i> Bangalore, India
+              </span>
+            </div>
             <span className="secondary-color subtitle-text">
               Jan 2016 - Nov 2016 <i className="far fa-clock"></i> 11 Months
             </span>
