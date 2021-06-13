@@ -1,12 +1,7 @@
 import React from "react";
 import CustomCard from "../../components/CustomCard/CustomCard";
 import ProgressCircle from "../../components/ProgressCircle/ProgressCircle";
-import {
-  Title,
-  TopSkillsContainer,
-  OtherSkillsContainer,
-  SkillCardContainer,
-} from "./Styled";
+import { Title, TopSkillsContainer, SkillCardContainer } from "./Styled";
 
 const professionalSkills = {
   topSkills: [
@@ -38,20 +33,28 @@ const professionalSkills = {
   ],
   otherSkills: [
     "Styled Components",
+    "Redux",
     "Webpack",
     "Parcel",
     "AngularJS V1",
     "JQuery",
     "React Native",
   ],
-  testing: ["Jest", "React Testing Library"],
+  testing: ["Jest", "Enzyme", "React Testing Library"],
   versionControl: ["Github", "Bitbucket", "SVN"],
+  projectPlan: ["Jira Agile board"],
   platforms: ["Linux/Ubuntu", "Mac OS", "Windows 10"],
 };
 
 const Skills = () => {
-  const { topSkills, otherSkills, testing, versionControl, platforms } =
-    professionalSkills;
+  const {
+    topSkills,
+    otherSkills,
+    testing,
+    projectPlan,
+    versionControl,
+    platforms,
+  } = professionalSkills;
   return (
     <CustomCard title="Professional Skills" scrollId="Skills">
       <Title>Top - Web / Mobile Technology & Scripting</Title>
@@ -67,45 +70,60 @@ const Skills = () => {
         ))}
       </TopSkillsContainer>
       <Title>Others - Web / Mobile Technology & Scripting</Title>
-      <OtherSkillsContainer>
-        {otherSkills.map((skill) => (
-          <SkillCardContainer key={skill} className="card">
-            <div className="card-body">
-              <h6 className="card-title mb-0">{skill}</h6>
-            </div>
-          </SkillCardContainer>
-        ))}
-      </OtherSkillsContainer>
+      <ul>
+        <li>
+          {otherSkills.map((skill, index) => (
+            <span key={index}>
+              {skill}
+              {index < otherSkills.length - 1 && ","}{" "}
+            </span>
+          ))}
+        </li>
+      </ul>
       <Title>Javascript Testing</Title>
-      <OtherSkillsContainer>
-        {testing.map((skill) => (
-          <SkillCardContainer key={skill} className="card">
-            <div className="card-body">
-              <h6 className="card-title mb-0">{skill}</h6>
-            </div>
-          </SkillCardContainer>
-        ))}
-      </OtherSkillsContainer>
+      <ul>
+        <li>
+          {testing.map((skill, index) => (
+            <span key={index}>
+              {skill}
+              {index < testing.length - 1 && ","}{" "}
+            </span>
+          ))}
+        </li>
+      </ul>
+      <Title>Project Plan</Title>
+      <ul>
+        <li>
+          {projectPlan.map((skill, index) => (
+            <span key={index}>
+              {skill}
+              {index < projectPlan.length - 1 && ","}{" "}
+            </span>
+          ))}
+        </li>
+      </ul>
       <Title>Version control</Title>
-      <OtherSkillsContainer>
-        {versionControl.map((skill) => (
-          <SkillCardContainer key={skill} className="card">
-            <div className="card-body">
-              <h6 className="card-title mb-0">{skill}</h6>
-            </div>
-          </SkillCardContainer>
-        ))}
-      </OtherSkillsContainer>
+      <ul>
+        <li>
+          {versionControl.map((skill, index) => (
+            <span key={index}>
+              {skill}
+              {index < versionControl.length - 1 && ","}{" "}
+            </span>
+          ))}
+        </li>
+      </ul>
       <Title>Platforms / VM / OS</Title>
-      <OtherSkillsContainer>
-        {platforms.map((skill) => (
-          <SkillCardContainer key={skill} className="card">
-            <div className="card-body">
-              <h6 className="card-title mb-0">{skill}</h6>
-            </div>
-          </SkillCardContainer>
-        ))}
-      </OtherSkillsContainer>
+      <ul>
+        <li>
+          {platforms.map((skill, index) => (
+            <span key={index}>
+              {skill}
+              {index < platforms.length - 1 && ","}{" "}
+            </span>
+          ))}
+        </li>
+      </ul>
     </CustomCard>
   );
 };

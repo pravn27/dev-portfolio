@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import CustomCard from "../../components/CustomCard/CustomCard";
-import { ExpTimeLineContainer, Title, SubTitle } from "./Styled";
+import { ExpTimeLineContainer, Title, SubTitle, AnchorTag } from "./Styled";
 
 const Experience = () => {
   const timeLineElementProps = {
@@ -29,6 +29,93 @@ const Experience = () => {
     <CustomCard title="Experience" scrollId="Experience">
       <ExpTimeLineContainer>
         <VerticalTimeline layout="1-column-left">
+          <VerticalTimelineElement {...timeLineElementProps}>
+            <div className="mainTitleContainer">
+              <Title>
+                Xactly Technologies
+                <span>(Software Engineer - UI ReactJS developer)</span>
+              </Title>
+              <span className="location">
+                <i className="fas fa-map-marker-alt"></i> Bangalore, India
+              </span>
+            </div>
+            <span className="secondary-color subtitle-text">
+              Aug 2019 - Till Present (Current Employer){" "}
+            </span>
+            <SubTitle className="mt-2">
+              Overview:
+              <span>
+                Xactly is leading the way in Sales Performance Management, with
+                everything businesses need to unleash their true Sales Power.
+                Designed for complex, ambitious enterprises, Xactly clears
+                immediate sales roadblocks with adaptable products and services
+                delivering planning, strategy, and optimization.
+              </span>
+            </SubTitle>
+            <SubTitle>
+              Project:
+              <a
+                href="https://drive.google.com/drive/folders/1ebspynZ_EyO0cw8dUSwLAdq4Q1tf8dHm?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Xactly Insights
+              </a>
+            </SubTitle>
+            <SubTitle>
+              Xactly Insights Overview:
+              <span>
+                Xactly Insights is the only SPM (Sales Performance Management)
+                solution to offer real-time dynamic performance indicators based
+                on real pay and performance data from a number of industries.
+              </span>
+            </SubTitle>
+            <SubTitle>Roles & Responsibilities </SubTitle>
+            <ul className="secondary-color subtitle-text">
+              <li>
+                Requirement analysis, understanding the business logic and
+                implement in project and come up with best solutions in
+                effective with feedbacks & suggestions in UI/UX design
+                principles.
+              </li>
+              <li>
+                Worked in Agile Methodologies & agile board sprint planning.
+              </li>
+              <li>Integration of UI and API service layer.</li>
+              <li>
+                Build & contribute to new components for
+                <AnchorTag
+                  href="https://drive.google.com/drive/folders/1GeEyzvSUrd7IAW7r8qv9QuqQYVkiOSly?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Xactly Design System
+                </AnchorTag>{" "}
+                which adopt in all products of Xactly.
+              </li>
+              <li>
+                Follow best industry practices in UI layout design, maintain
+                design document for every features in confluence & unit test
+                code coverage of minimum 75%.
+              </li>
+              <li>
+                Troubleshooting various issues with the testing team for fixing
+                bugs and supporting automation.
+              </li>
+            </ul>
+            <SubTitle>Tools & Technologies</SubTitle>
+            <ul className="secondary-color subtitle-text">
+              <li>
+                JavaScript, ReactJS, Redux, Styled Components, Webpack, NodeJS,
+                Highcharts React
+              </li>
+              <li>Xactly design system library with Prism design</li>
+              <li>Jest, Enzyme & React testing library</li>
+              <li>SplitIO for feature enable / disable control</li>
+              <li>Analytics with Pendo & Mixpanel</li>
+              <li>Jenkins CICD, Docker</li>
+            </ul>
+          </VerticalTimelineElement>
           <VerticalTimelineElement {...timeLineElementProps}>
             <div className="mainTitleContainer">
               <Title>
@@ -68,12 +155,15 @@ const Experience = () => {
             <SubTitle>Roles & Responsibilities: </SubTitle>
             <ul className="secondary-color subtitle-text">
               <li>
-                Collecting and understanding the Client requirement,
-                implementing in project.
+                Requirement analysis, understand the business logic & implement
+                in project.
               </li>
               <li>
-                Based on Client requirement, come up with best solutions in
-                effective way with feedbacks & suggestions in UI/UX designs.
+                Based on requirement, come up with best solutions in effective
+                way with feedbacks & suggestions in UI/UX designs.
+              </li>
+              <li>
+                Worked in Agile Methodologies & agile board sprint planning.
               </li>
               <li>
                 Following best industry practices in UI layout design, unit test
@@ -135,11 +225,11 @@ const Experience = () => {
             <SubTitle>Roles & Responsibilities: </SubTitle>
             <ul className="secondary-color subtitle-text">
               <li>
-                Collecting and understanding the Client requirement,
-                implementing in project.
+                Collect and understand the Client requirement, implement in
+                project.
               </li>
               <li>
-                Coordinating with the testing team for fixing bugs and for
+                Coordinate with the testing team for fixing bugs and for
                 supporting automation for build & deployment.
               </li>
             </ul>
@@ -181,17 +271,17 @@ const Experience = () => {
             <SubTitle>Roles & Responsibilities: </SubTitle>
             <ul className="secondary-color subtitle-text">
               <li>
-                Collecting and understanding the Client requirement,
-                implementing in project.
+                Collect and understand the Client requirement, implement in
+                project.
               </li>
               <li>
-                Coordinating with the testing team for fixing bugs and for
+                Coordinate with the testing team for fixing bugs and for
                 supporting automation for build & deployment.
               </li>
             </ul>
             <SubTitle>
               Tools & Technologies:
-              <span>Javascript, JQuery, ReactJS</span>
+              <span>HTML5, CSS3, Javascript, JQuery, ReactJS</span>
             </SubTitle>
           </VerticalTimelineElement>
         </VerticalTimeline>

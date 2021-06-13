@@ -72,3 +72,13 @@ export const SubTitle = styled.h6`
     color: ${({ theme: { primaryColor } }) => primaryColor};
   }
 `;
+
+export const AnchorTag = styled.a`
+  color: #008fa1;
+  margin-left: 5px;
+  font-size: 14px;
+
+  :hover {
+    color: ${({ theme: { primaryColor } }) => primaryColor};
+  }
+`;

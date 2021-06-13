@@ -34,7 +34,14 @@ const BasicInfo = () => {
           >
             <i className="fas fa-paper-plane"></i> HIRE ME
           </button>
-          <button className="btn btn-light">
+          <button
+            className="btn btn-light"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/16eVpvwNbDNwn4cayReK9kRFZaJCh-u3E/view?usp=sharing"
+              )
+            }
+          >
             <i className="fas fa-download"></i> DOWNLOAD CV
           </button>
         </div>
@@ -55,10 +62,10 @@ const BasicInfo = () => {
           </strong>
         </p>
         <p className="lead text-center text-white">
-          A result-orientated professional with over 5.2 year's experience in
-          Software Development (ReactJS developer) in web/mobile application,
-          enhancement and services including UI frontend cutting edge
-          technologies.
+          A result-orientated professional over 5.7 Year’s experience in UI
+          Software Development in web and mobile application development with
+          frontend cutting edge technologies & extensive experience on ReactJS &
+          JavaScript in building web application interface.
         </p>
       </DevInfoContainer>
     </MainContainer>

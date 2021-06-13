@@ -14,8 +14,7 @@ const contactInfo = {
   keyPoints: [
     "Based on business requirement, come up with best design principles in UI/UX designs.",
     "Best UI layout design implementation.",
-    "Frontend tech stacks with HTML5, CSS3, Javascript & ReactJS.",
-    "Redux for data management.",
+    "Frontend tech stacks with HTML5, CSS3, Javascript & ReactJS, Redux.",
   ],
   socialConnect: [
     {
