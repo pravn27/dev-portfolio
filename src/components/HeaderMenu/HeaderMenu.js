@@ -2,7 +2,7 @@ import React from "react";
 import { MenuContainer, LinkContainer } from "./Styled";
 
 const navMenuItems = {
-  menus: ["Experience", "Skills", "Projects", "Education", "Contact"],
+  menus: ["Experience", "Skills", "Education", "Contact"],
 };
 
 const HeaderMenu = () => {

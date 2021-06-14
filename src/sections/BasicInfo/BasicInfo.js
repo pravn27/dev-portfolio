@@ -54,7 +54,7 @@ const BasicInfo = () => {
           width="150"
           height="150"
         />
-        <h1 className="text-center text-white">Praveen S</h1>
+        <h1 className="text-center text-white">Praveen Shekarappa</h1>
         <p className="lead text-center text-white">
           <strong>
             Senior Software Engineer | ReactJS Developer | UI/UX Web/Mobile app
