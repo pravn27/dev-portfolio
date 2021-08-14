@@ -38,7 +38,7 @@ const BasicInfo = () => {
             className="btn btn-light"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/16eVpvwNbDNwn4cayReK9kRFZaJCh-u3E/view?usp=sharing"
+                "https://drive.google.com/file/d/1o7H5oGPH4Q8YtWFbu7XjjDumifNfA_CW/view?usp=sharing"
               )
             }
           >

@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import CustomCard from "../../components/CustomCard/CustomCard";
-import { ExpTimeLineContainer, Title, SubTitle, AnchorTag } from "./Styled";
+import { ExpTimeLineContainer, Title, SubTitle } from "./Styled";
 
 const Experience = () => {
   const timeLineElementProps = {
@@ -33,7 +33,7 @@ const Experience = () => {
             <div className="mainTitleContainer">
               <Title>
                 Xactly Technologies
-                <span>(Software Engineer - UI ReactJS developer)</span>
+                <span>(Senior Software Engineer - UI ReactJS developer)</span>
               </Title>
               <span className="location">
                 <i className="fas fa-map-marker-alt"></i> Bangalore, India
@@ -54,13 +54,7 @@ const Experience = () => {
             </SubTitle>
             <SubTitle>
               Project:
-              <a
-                href="https://drive.google.com/drive/folders/1ebspynZ_EyO0cw8dUSwLAdq4Q1tf8dHm?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Xactly Insights
-              </a>
+              <span>Xactly Insights Web application</span>
             </SubTitle>
             <SubTitle>
               Xactly Insights Overview:
@@ -83,15 +77,7 @@ const Experience = () => {
               </li>
               <li>Integration of UI and API service layer.</li>
               <li>
-                Build & contribute to new components for
-                <AnchorTag
-                  href="https://drive.google.com/drive/folders/1GeEyzvSUrd7IAW7r8qv9QuqQYVkiOSly?usp=sharing"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Xactly Design System
-                </AnchorTag>{" "}
-                which adopt in all products of Xactly.
+                Build & contribute to new components for Xactly Design System which adopt in all products of Xactly.
               </li>
               <li>
                 Follow best industry practices in UI layout design, maintain
