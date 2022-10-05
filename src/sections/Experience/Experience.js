@@ -41,6 +41,7 @@ const Experience = () => {
             </div>
             <span className="secondary-color subtitle-text">
               Aug 2019 - Till Present (Current Employer){" "}
+              <i className="far fa-clock"></i> 3+ Years
             </span>
             <SubTitle className="mt-2">
               Overview:
@@ -77,7 +78,8 @@ const Experience = () => {
               </li>
               <li>Integration of UI and API service layer.</li>
               <li>
-                Build & contribute to new components for Xactly Design System which adopt in all products of Xactly.
+                Build & contribute to new components for Xactly Design System
+                which adopt in all products of Xactly.
               </li>
               <li>
                 Follow best industry practices in UI layout design, maintain
