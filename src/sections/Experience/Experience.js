@@ -41,7 +41,7 @@ const Experience = () => {
             </div>
             <span className="secondary-color subtitle-text">
               Aug 2019 - Till Present (Current Employer){" "}
-              <i className="far fa-clock"></i> 3+ Years
+              <i className="far fa-clock"></i> 4+ Years
             </span>
             <SubTitle className="mt-2">
               Overview:
@@ -54,15 +54,28 @@ const Experience = () => {
               </span>
             </SubTitle>
             <SubTitle>
-              Project:
-              <span>Xactly Insights Web application</span>
+              Project 1:
+              <span>Xactly Insights & Incent Web application</span>
             </SubTitle>
             <SubTitle>
-              Xactly Insights Overview:
+              Overview:
               <span>
                 Xactly Insights is the only SPM (Sales Performance Management)
                 solution to offer real-time dynamic performance indicators based
                 on real pay and performance data from a number of industries.
+              </span>
+            </SubTitle>
+            <SubTitle>
+              Project 2:
+              <span>Xactly Extend Framework</span>
+            </SubTitle>
+            <SubTitle>
+              Overview:
+              <span>
+                Extend Framework is Custom application builder, consist mainly
+                on application designer & viewer where can build part of
+                features according to customer requirements in short period of
+                time.
               </span>
             </SubTitle>
             <SubTitle>Roles & Responsibilities </SubTitle>

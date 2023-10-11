@@ -6,7 +6,8 @@ const jsonResponse = {
   email: "praveen.sri27@gmail.com",
   role: "Senior Software Engineer | ReactJS Developer | UI/UX Web/Mobile app developer",
   description:
-    "A result-orientated professional over 6+ Year's experience in UI Software Development in web and mobile application development with frontend cutting edge technologies & extensive experience on ReactJS & JavaScript in building web application interface.",
+    "A result-orientated professional with over 7+ Years of experience in UI Software Development in web and mobile application development with frontend cutting edge technologies & extensive experience on ReactJS & JavaScript in building web application interface.",
+
   avatarImgUrl: "https://avatars.githubusercontent.com/u/17290429?v=4",
   githubUrl: "https://github.com/pravn27",
   linkedinUrl: "https://www.linkedin.com/in/praveen-s-157b365a/",
