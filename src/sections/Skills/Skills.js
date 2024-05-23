@@ -43,7 +43,7 @@ const professionalSkills = {
   testing: ["Jest", "Enzyme", "React Testing Library"],
   versionControl: ["Github", "Bitbucket", "SVN"],
   projectPlan: ["Jira Agile board"],
-  platforms: ["Linux/Ubuntu", "Mac OS", "Windows 10"],
+  platforms: ["Linux/Ubuntu", "CentOS", "Mac OS", "Windows 10+"],
 };
 
 const Skills = () => {
@@ -124,6 +124,7 @@ const Skills = () => {
           ))}
         </li>
       </ul>
+      <Title>Stock market Technical Analyst</Title>
     </CustomCard>
   );
 };

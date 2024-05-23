@@ -41,7 +41,7 @@ const Experience = () => {
             </div>
             <span className="secondary-color subtitle-text">
               Aug 2019 - Till Present (Current Employer){" "}
-              <i className="far fa-clock"></i> 4+ Years
+              <i className="far fa-clock"></i> 4.5 Years
             </span>
             <SubTitle className="mt-2">
               Overview:
