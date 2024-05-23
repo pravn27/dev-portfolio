@@ -11,7 +11,7 @@ const jsonResponse = {
   githubUrl: "https://github.com/pravn27",
   linkedinUrl: "https://www.linkedin.com/in/praveen-s-157b365a/",
   downloadCvUrl:
-    "https://drive.google.com/file/d/1JaT7xaI82I0vJ7jzpycR9nlN0TSTPDvK/view?usp=sharing",
+    "https://drive.google.com/file/d/1Ae847ADOUXS-9uuADMUuq5z2xry88uuQ/view?usp=drive_link",
 };
 
 const BasicInfo = () => {
