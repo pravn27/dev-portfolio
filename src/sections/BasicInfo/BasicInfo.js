@@ -4,7 +4,7 @@ import { MainContainer, LinkContainer, DevInfoContainer } from "./Styled";
 const jsonResponse = {
   fullName: "Praveen Shekarappa",
   email: "praveen.sri27@gmail.com",
-  role: "Senior Software Engineer | ReactJS Developer | UI/UX Web/Mobile app developer",
+  role: "Senior Software Engineer (ReactJS Developer) | UI/UX Web/Mobile app developer",
   description:
     "A result-orientated professional with over 7+ Years of experience in UI Software Development in web and mobile application development with frontend cutting edge technologies. Extensive experience with ReactJS and JavaScript in building web application interface. MTech (CSE) from Vellore Institute of Technology VIT University, Vellore.",
   avatarImgUrl: "https://avatars.githubusercontent.com/u/17290429?v=4",
